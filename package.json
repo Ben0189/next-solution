@@ -3,21 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@udecode/cn": "^39.0.0",
     "@udecode/plate-common": "^40.0.3",
+    "class-variance-authority": "^0.7.0",
+    "lucide-react": "^0.456.0",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "slate": "^0.110.2",
     "slate-dom": "^0.111.0",
     "slate-history": "^0.110.3",
     "slate-hyperscript": "^0.100.0",
-    "slate-react": "^0.111.0"
+    "slate-react": "^0.111.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
