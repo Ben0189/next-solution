@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-toolbar": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.4",
     "@udecode/cn": "^39.0.0",
     "@udecode/plate-basic-elements": "^40.0.2",
     "@udecode/plate-basic-marks": "^40.0.0",
