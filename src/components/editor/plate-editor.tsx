@@ -13,6 +13,11 @@ export function PlateEditor() {
     console.log('Editor content:', content);
   };
 
+  editor.onChange = () => {
+    // Update the editor's content
+    console.log('Editor content updated:', editor.children);
+  };
+
   return (
     <>
       <Plate editor={editor}>
